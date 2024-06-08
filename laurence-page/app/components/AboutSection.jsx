@@ -9,12 +9,15 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>React & Redux</li>
+        <li>Javascript</li>
+        <li>Java</li>
+        <li>Apache HTTP</li>
+        <li>HTML & SCSS</li>
+        <li>SQL</li>
+        <li>GraphQL</li>
+        <li>AEM</li>
+        <li>AJO</li>
       </ul>
     ),
   },
@@ -23,8 +26,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li><a href="https://www.auckland.ac.nz/">Bachelor of Science: Computer Science & Information Systems, <br></br> 
+            University of Auckland, New Zealand</a></li>
       </ul>
     ),
   },
@@ -33,8 +36,15 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li><a target="_blank" 
+                href="https://www.credly.com/badges/d12444da-bbe8-42ff-8077-48372d1e8baa/">
+                Microsoft Azure Fundamentals Certification AZ-900</a>
+        </li>
+        <li>Business Process Management ARIS Certificate</li>
+        <li><a target="_blank" 
+                href="https://www.iiba.org/business-analysis-certifications/certification-digital-badge-program-and-directory#certification-registries">
+                IIBA Academic Certificate and Diploma in Business Analysis</a>
+        </li>
       </ul>
     ),
   },
@@ -57,12 +67,12 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            I am a qualified Adobe Experience Manager full stack web developer and consultant
+            working within the Adobe Experience Manager CMS tech stack. I have further expertise with using latest marketing automation tools
+            (Adobe Journey Optimizer) as well as in Adobe Analytics. I have a passion for creating
+            interactive and responsive web applications. 
+            As a quick learner I am always looking to expand my knowledge and skill set. 
+            I am a team player and I am excited to work with others to create amazing applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
