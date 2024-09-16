@@ -10,7 +10,9 @@ const TabButton = ({ active, selectTab, children }) => {
   const buttonClasses = active ? "text-white" : "text-[#ADB7BE]";
 
   return (
-    <button onClick={selectTab}>
+    <button 
+    onClick={selectTab}
+    aria-label="Select Tab">
       <p className={`mr-3 font-semibold hover:text-white ${buttonClasses}`}>
         {children}
       </p>

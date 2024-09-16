@@ -71,10 +71,13 @@ const ProjectsSection = () => {
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1 }}
-      >
+    >
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12 orbitron">
         My Projects
       </h2>
+      <h3 className="text-center text-3xl font-semibold text-white mt-2 mb-4 md:mb-6 orbitron">
+        Project Categories
+      </h3>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
