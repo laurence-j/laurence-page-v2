@@ -11,8 +11,7 @@ const projectsData = [
     description: "Project 1 description",
     image: "/images/projects/1.png",
     tag: ["All", "Public"],
-    gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://www.silverfernfarms.com/",
   },
   {
     id: 2,
@@ -20,8 +19,7 @@ const projectsData = [
     description: "Project 2 description",
     image: "/images/projects/2.png",
     tag: ["All", "Public"],
-    gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://careers.silverfernfarms.com/",
   },
   {
     id: 3,
@@ -29,8 +27,7 @@ const projectsData = [
     description: "Project 3 description",
     image: "/images/projects/3.png",
     tag: ["All", "Public"],
-    gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://www.silverfernfarms.coop/",
   },
   {
     id: 4,
@@ -38,8 +35,7 @@ const projectsData = [
     description: "Project 4 description",
     image: "/images/projects/4.png",
     tag: ["All", "Private"],
-    gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://my.silverfernfarms.com/",
   },
   {
     id: 5,
@@ -47,8 +43,7 @@ const projectsData = [
     description: "Project 5 description",
     image: "/images/projects/5.png",
     tag: ["All", "Public"],
-    gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://silverfernfarms.com/me/ar/",
   }
 ];
 
@@ -71,8 +66,13 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+    <motion.section 
+      id="projects"
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 1 }}
+      >
+      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12 orbitron">
         My Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
@@ -112,7 +112,7 @@ const ProjectsSection = () => {
           </motion.li>
         ))}
       </ul>
-    </section>
+    </motion.section>
   );
 };
 
