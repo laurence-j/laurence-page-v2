@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "Silver Fern Farms Multilingual Corporate Website",
-    description: "Project 1 description",
+    description: "A corporate website offering multilingual support to cater to a global audience. Explore the company’s values, products, and recipes in multiple languages.",
     image: "/images/projects/1.png",
     tag: ["All", "Public"],
     previewUrl: "https://www.silverfernfarms.com/",
@@ -16,7 +16,7 @@ const projectsData = [
   {
     id: 2,
     title: "Silver Fern Farms Careers Website",
-    description: "Project 2 description",
+    description: "A dedicated platform for job seekers to explore career opportunities at Silver Fern Farms. Find job listings, company culture insights, and application resources.",
     image: "/images/projects/2.png",
     tag: ["All", "Public"],
     previewUrl: "https://careers.silverfernfarms.com/",
@@ -24,7 +24,7 @@ const projectsData = [
   {
     id: 3,
     title: "Silver Fern Farms Coop Website",
-    description: "Project 3 description",
+    description: "An informative website for cooperative members, providing resources, news, and updates about the cooperative’s activities and benefits.",
     image: "/images/projects/3.png",
     tag: ["All", "Public"],
     previewUrl: "https://www.silverfernfarms.coop/",
@@ -32,7 +32,7 @@ const projectsData = [
   {
     id: 4,
     title: "My Silver Fern Farms Customer Portal - AEM REACT SPA",
-    description: "Project 4 description",
+    description: "A secure customer portal built with AEM and React, offering personalized services and account management for Silver Fern Farms customers.",
     image: "/images/projects/4.png",
     tag: ["All", "Private"],
     previewUrl: "https://my.silverfernfarms.com/",
@@ -40,7 +40,7 @@ const projectsData = [
   {
     id: 5,
     title: "Silver Fern Farms Middle East Region Arabic Website",
-    description: "Project 5 description",
+    description: "A region-specific website tailored for the Middle East, featuring content in Arabic to better serve local customers and partners.",
     image: "/images/projects/5.png",
     tag: ["All", "Public"],
     previewUrl: "https://silverfernfarms.com/me/ar/",
