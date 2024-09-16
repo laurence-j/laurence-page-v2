@@ -75,9 +75,6 @@ const ProjectsSection = () => {
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12 orbitron">
         My Projects
       </h2>
-      <h3 className="text-center text-3xl font-semibold text-white mt-2 mb-4 md:mb-6 orbitron">
-        Project Categories
-      </h3>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
@@ -102,7 +99,7 @@ const ProjectsSection = () => {
             variants={cardVariants}
             initial="initial"
             animate={isInView ? "animate" : "initial"}
-            transition={{ duration: 0.3, delay: index * 0.4 }}
+            transition={{ duration: 0.3, delay: index * 0.2 }}
           >
             <ProjectCard
               key={project.id}

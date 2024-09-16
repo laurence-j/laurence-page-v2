@@ -37,12 +37,12 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Welcome to my page - feel free to reach out to me!
+            Based in Auckland, New Zealand - reach out to me!
           </p>
           <div>
             <Link
               href="/#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-100 via-blue-200 to-blue-500 hover:bg-slate-200 text-white"
+              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-100 via-blue-200 to-blue-500 hover:bg-slate-200 text-black"
             >
               Email Me
             </Link>
